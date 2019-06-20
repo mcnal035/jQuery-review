@@ -3,17 +3,20 @@ main {
     margin: auto;
 
 }
-section{
+
+section {
     background-color: deepskyblue;
     margin: 40px;
     padding: 10px;
     border-radius: 10px;
 }
+
 body {
     background-color: cadetblue;
-    margin:0;
+    margin: 0;
 
 }
+
 header {
     background-color: black;
     color: white;
@@ -21,7 +24,8 @@ header {
     padding: 10px;
 
 }
-h1{
+
+h1 {
     margin: 0;
 }
 
@@ -29,12 +33,19 @@ h1{
     background-color: darkgrey;
 }
 
-.info{
+.info {
     text-align: center;
 }
-.info ul{
+
+.info ul {
     list-style-type: none;
 }
+
 .text-light {
     background-color: aliceblue;
+}
+
+.important{
+    background-color: goldenrod;
+    padding: 10px;
 }

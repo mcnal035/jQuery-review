@@ -21,7 +21,7 @@ function onReady() {
     
     //Shouldnt do this becasue it will break later!
     //$('.student').on('click', showAwesomeAlert);
-    console.log('This:',this);
+    //console.log('This:',this);
 }
 //this function will be called when we click on a student
 //It willl show on an alert saying that student is awesome!
