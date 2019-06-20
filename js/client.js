@@ -26,9 +26,11 @@ function onReady() {
 //this function will be called when we click on a student
 //It willl show on an alert saying that student is awesome!
 function showAwesomeAlert(event) {
-    console.log('Event', event);
-    console.log(this); // 'this' helps you target where the contextual event is going to. Its what generated the event.
-    //alert('Check the console...');
+    //we will do more with events later, but ignoreing for now.
+    //console.log('Event', event);
+    //console.log(this); // 'this' helps you target where the contextual event is going to. Its what generated the event.
+    let studentName = $(this).text(); //selecting this will allow you to generate the element from the function
+    alert(`${studentName} is awesome!!!`);
 }
 
 // This functionwilltake in an array of students,
